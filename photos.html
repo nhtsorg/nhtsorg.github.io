@@ -22,6 +22,8 @@
   h1{font-family:'Fraunces',serif;font-size:clamp(36px,6vw,60px);font-weight:700}
   header p{color:#6b655e;margin-top:10px;font-size:17px}
   header p a{color:var(--red-deep)}
+  .back{display:inline-flex;align-items:center;gap:8px;margin-bottom:22px;padding:9px 18px;border-radius:999px;border:1.5px solid var(--red);color:var(--red);font-weight:600;font-size:15px;text-decoration:none;transition:background .2s ease,color .2s ease}
+  .back:hover{background:var(--red);color:#fff}
   .grid{columns:3;column-gap:16px;padding-bottom:80px}
   .grid a{display:block;margin-bottom:16px;break-inside:avoid;border-radius:14px;overflow:hidden;border:1.5px solid var(--line);background:#fff}
   .grid img{width:100%;display:block;transition:transform .25s ease}
@@ -48,6 +50,7 @@
 
 <header>
   <div class="wrap">
+    <a class="back" href="index.html">&larr; Back to home</a>
     <h1>Our visits, in photos</h1>
     <p>Real moments from retirement communities across the Omaha metro.
        Follow along on <a href="https://www.instagram.com/nhtsorg">Instagram @nhtsorg</a>.</p>
